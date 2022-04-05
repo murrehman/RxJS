@@ -6,10 +6,16 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TimepickerModule } from 'ngx-bootstrap/timepicker';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ObservableComponent } from './observable/observable.component';
+import { ListComponent } from './observable/list/list.component';
+import { FromEventComponent } from './observable/from-event/from-event.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ObservableComponent,
+    ListComponent,
+    FromEventComponent
   ],
   imports: [
     BrowserModule,
